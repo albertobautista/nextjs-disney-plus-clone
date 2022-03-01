@@ -76,10 +76,6 @@ export async function getServerSideProps(context: any) {
       top_ratedMoviesRes.json(),
       top_ratedShowsRes.json(),
     ])
-  console.log(
-    '🚀 ~ file: index.tsx ~ line 61 ~ getServerSideProps ~ popularShows',
-    popularShows
-  )
 
   return {
     props: {

@@ -11,9 +11,7 @@ import { useRouter } from 'next/router'
 
 const Header = () => {
   const { data: session, status } = useSession()
-  console.log('🚀 ~ file: Header.tsx ~ line 14 ~ Header ~ status', status)
   const router = useRouter()
-  console.log('🚀 ~ file: Header.tsx ~ line 13 ~ Header ~ session', session)
   return (
     <div className="sticky top-0 z-[1000] flex h-[72px] items-center bg-[#040714] px-10 md:px-12 ">
       <Image
